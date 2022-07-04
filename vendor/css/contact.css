@@ -1,0 +1,54 @@
+body{
+    background: #000;
+}
+.cont-head{
+    color: #fff;
+    text-align: center;
+    margin: 1em auto;
+}
+.cont-details{
+    width: 80%;
+    height: auto;
+    /* border: 1px #e04a34 solid; */
+    margin: 1em auto;
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-items: flex-start;
+	align-items:flex-start;
+	-webkit-align-content: flex-start;
+	align-content:flex-start;
+    gap: 20px;
+}
+.cont-item{
+    width: 40%;
+    height: 10em;
+    /* border: solid 1px #e04a34; */
+    -webkit-flex: 1 auto;
+	-moz-flex: 1 auto;
+	flex: 1 auto;
+	align-self: auto;
+    font-size: 1em;
+    color: #fff;
+}
+.cont-item .iconify-inline{
+    font-size: 3em;
+    display: inline-block;
+}
+.cont-item a{
+    color: #fff;
+}
+.location{
+    margin: 1em 0 0 3.5em;
+}
+.gym-time{
+    list-style: none;
+    margin: 1em 0 0 3.5em;
+}
+.map{
+    width: 80%;
+    margin: 1em auto;
+}
